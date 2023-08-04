@@ -33,6 +33,8 @@ define Package/darkice/description
 DarkIce is a live audio streamer. It records audio from an audio interface (e.g. sound card), encodes it and sends it to a streaming server.
 endef
 
+TARGET_CXXFLAGS += -std=c++11
+
 CONFIGURE_ARGS += \
 		--with-lame \
 		--without-aacplus \

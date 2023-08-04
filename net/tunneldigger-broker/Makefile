@@ -67,6 +67,6 @@ define Package/tunneldigger-broker/conffiles
 /etc/config/tunneldigger-broker
 endef
 
-$(eval $(call Py3Package,tunneldigger-broker))
-$(eval $(call BuildPackage,tunneldigger-broker))
-$(eval $(call BuildPackage,tunneldigger-broker-src))
+#$(eval $(call Py3Package,tunneldigger-broker))
+#$(eval $(call BuildPackage,tunneldigger-broker))
+#$(eval $(call BuildPackage,tunneldigger-broker-src))
